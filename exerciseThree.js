@@ -8,4 +8,6 @@ function getAlphanumeric() {
   return alphanumerics.join('-');
 }
 
-console.log(getAlphanumeric());
+const id = getAlphanumeric();
+
+console.log(id); // a9n7-dw6s-x2ej-5btm

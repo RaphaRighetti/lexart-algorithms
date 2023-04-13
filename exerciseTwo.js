@@ -51,8 +51,8 @@ class Calculator {
   }
 }
 
-console.log(Calculator.sum([1, 3, 5, 7]));
-console.log(Calculator.subtraction([23, 3, 5, 7]));
-console.log(Calculator.multiplication([2, 3, 5]));
-console.log(Calculator.division(49, 7));
-console.log(Calculator.division(6, 0));
+console.log(Calculator.sum([1, 3, 5, 7])); // 16
+console.log(Calculator.subtraction([23, 3, 5, 7])); // 8
+console.log(Calculator.multiplication([2, 3, 5])); // 30
+console.log(Calculator.division(49, 7)); // 7
+console.log(Calculator.division(6, 0)); // O divisor não pode ser 0

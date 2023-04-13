@@ -19,6 +19,6 @@ const getHighestNum = (arr) => {
   return highestNum;
 };
 
-console.log(getLetters(arr));
-console.log(getNums(arr));
-console.log(getHighestNum(arr));
+console.log(getLetters(arr)); // [ 'a', 'b', 'hola' ]
+console.log(getNums(arr)); // [ 10, 122, 15 ]
+console.log(getHighestNum(arr)); // 122
